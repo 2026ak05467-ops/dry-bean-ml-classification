@@ -39,11 +39,11 @@ st.write(
 # -----------------------------
 
 model_files = {
-    "Logistic Regression": "model/logistic_regression.joblib",
-    "Decision Tree": "model/decision_tree.joblib",
-    "KNN": "model/knn.joblib",
-    "Naive Bayes": "model/naive_bayes.joblib",
-    "SVM": "model/svm.joblib"
+    "Logistic Regression": "logistic_regression.joblib",
+    "Decision Tree": "decision_tree.joblib",
+    "KNN": "knn.joblib",
+    "Naive Bayes": "naive_bayes.joblib",
+    "SVM": "svm.joblib"
 }
 
 selected_model = st.selectbox(
